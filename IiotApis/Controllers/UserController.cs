@@ -1,7 +1,6 @@
-﻿using System;
-using IiotApi.Helpers;
-using IiotApi.Models;
-using IiotApi.Services;
+﻿
+using IiotApplication.Repositories;
+using IiotContract.Requests;
 using Microsoft.AspNetCore.Mvc;
 
 namespace IiotApi.Controllers

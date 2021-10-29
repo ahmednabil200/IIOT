@@ -2,7 +2,7 @@
 using System.ComponentModel.DataAnnotations;
 using System.Text.Json.Serialization;
 
-namespace IiotApi.Models
+namespace IiotDomain
 {
     public class Device
     {

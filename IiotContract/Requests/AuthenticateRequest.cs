@@ -1,6 +1,6 @@
 using System.ComponentModel.DataAnnotations;
 
-namespace IiotApi.Models
+namespace IiotContract.Requests
 {
     public class AuthenticateRequest
     {

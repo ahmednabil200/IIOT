@@ -1,10 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
-using IiotApi.Helpers;
-using IiotApi.Models;
+using IiotApplication.Repositories;
+using IiotContract.Requests;
+using IiotDomain;
+using IiotInfrastructure.Helpers;
 using Microsoft.Extensions.Options;
 
-namespace IiotApi.Services
+namespace IiotInfrastructure.Reposatories   
 {
     public class DeviceService : IDeviceService
     {
@@ -34,9 +36,6 @@ namespace IiotApi.Services
 
         public Device AddDevice(Device_Request requested_device)
         {
-            /*
-             * Any validation
-             */
 
             var device = new Device
             {

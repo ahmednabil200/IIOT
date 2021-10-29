@@ -1,8 +1,5 @@
-﻿using System;
-using IiotApi.Helpers;
-using Microsoft.Extensions.Options;
-
-namespace IiotApi.Models
+﻿
+namespace IiotDomain
 {
     public class DBFill
     {

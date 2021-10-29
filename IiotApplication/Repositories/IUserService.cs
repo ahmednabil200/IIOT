@@ -1,9 +1,10 @@
 ﻿
 using System.Collections.Generic;
-using IiotApi.Entities;
-using IiotApi.Models;
+using IiotContract.Requests;
+using IiotContract.Results;
+using IiotDomain;
 
-namespace IiotApi.Services
+namespace IiotApplication.Repositories
 {
     public interface IUserService
     {

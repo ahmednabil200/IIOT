@@ -1,10 +1,7 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using IiotApi.Helpers;
-using IiotApi.Models;
-using IiotApi.Services;
+using IiotApplication.Repositories;
+using IiotDomain;
+using IiotInfrastructure.Helpers;
+using IiotInfrastructure.Reposatories;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;

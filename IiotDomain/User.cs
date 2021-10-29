@@ -1,6 +1,6 @@
 using System.Text.Json.Serialization;
 
-namespace IiotApi.Entities
+namespace IiotDomain
 {
     public class User
     {

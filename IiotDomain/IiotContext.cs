@@ -1,8 +1,6 @@
-using IiotApi.Helpers;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.Options;
 
-namespace IiotApi.Models
+namespace IiotDomain
 {
     public class IiotContext : DbContext
     {
@@ -11,7 +9,7 @@ namespace IiotApi.Models
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseMySQL("server=db;port=3306;userid=dbuser;password=dbuserpassword;database=accountowner;");
+            optionsBuilder.UseMySQL("server=db;port=3306;userid=dbuser;password=dbuserpassword;database=IIOT;");
             
         }
         protected override void OnModelCreating(ModelBuilder modelBuilder)

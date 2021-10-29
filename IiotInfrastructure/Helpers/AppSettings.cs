@@ -1,4 +1,4 @@
-namespace IiotApi.Helpers
+namespace IiotInfrastructure.Helpers
 {
     public class AppSettings
     {

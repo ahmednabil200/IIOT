@@ -1,4 +1,4 @@
-using IiotApi.Services;
+using IiotApplication.Repositories;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Options;
 using Microsoft.IdentityModel.Tokens;
@@ -8,7 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace IiotApi.Helpers
+namespace IiotInfrastructure.Helpers
 {
     public class JwtMiddleware
     {

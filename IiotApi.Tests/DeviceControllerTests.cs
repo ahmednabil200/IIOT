@@ -2,8 +2,8 @@
 using System.Collections.Generic;
 using System.Linq;
 using IiotApi.Controllers;
-using IiotApi.Models;
-using IiotApi.Services;
+using IiotApplication.Repositories;
+using IiotDomain;
 using Microsoft.AspNetCore.Mvc;
 using Moq;
 using Xunit;

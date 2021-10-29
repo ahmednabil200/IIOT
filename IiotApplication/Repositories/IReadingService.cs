@@ -1,8 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
-using IiotApi.Models;
+using IiotContract.Requests;
+using IiotDomain;
 
-namespace IiotApi.Services
+namespace IiotApplication.Repositories
 {
     public interface IReadingService
     {

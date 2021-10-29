@@ -1,10 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
-using IiotApi.Helpers;
-using IiotApi.Models;
-using IiotApi.Services;
+using IiotApplication.Repositories;
+using IiotContract.Requests;
+using IiotDomain;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Mvc.Infrastructure;
 
 
 namespace IiotApi.Controllers

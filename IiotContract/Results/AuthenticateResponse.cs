@@ -1,6 +1,6 @@
-using IiotApi.Entities;
+using IiotDomain;
 
-namespace IiotApi.Models
+namespace IiotContract.Results
 {
     public class AuthenticateResponse
     {

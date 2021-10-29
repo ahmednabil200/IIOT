@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Text.Json.Serialization;
 
-namespace IiotApi.Models
+namespace IiotContract.Requests
 {
     public class Device_Request
     {

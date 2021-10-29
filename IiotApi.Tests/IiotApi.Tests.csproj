@@ -15,5 +15,9 @@
 
   <ItemGroup>
     <ProjectReference Include="..\IiotApis\IiotApi.csproj" />
+    <ProjectReference Include="..\IiotApplication\IiotApplication.csproj" />
+    <ProjectReference Include="..\IiotContract\IiotContract.csproj" />
+    <ProjectReference Include="..\IiotDomain\IiotDomain.csproj" />
+    <ProjectReference Include="..\IiotInfrastructure\IiotInfrastructure.csproj" />
   </ItemGroup>
 </Project>

@@ -1,12 +1,14 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using IiotApi.Helpers;
-using IiotApi.Models;
+using IiotApplication.Repositories;
+using IiotContract.Requests;
+using IiotDomain;
+using IiotInfrastructure.Helpers;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Options;
 
-namespace IiotApi.Services
+namespace IiotInfrastructure.Reposatories
 {
     public class ReadingService : IReadingService
     {
@@ -34,9 +36,6 @@ namespace IiotApi.Services
 
         public Reading InsertReading(Reading_Request reading_request)
         {
-            /*
-             * Any validation
-             */
 
             var reading = new Reading
             {

@@ -1,17 +1,14 @@
 ﻿using System.ComponentModel.DataAnnotations.Schema;
 using System.Text.Json.Serialization;
 
-namespace IiotApi.Models
+namespace IiotContract.Requests
 {
-    public class Reading
+    public class Reading_Request
     {
-        public int ID { get; set; }
+        public int ID { get;  set; }
         public int TimeStamp { get;  set; }
-        [JsonIgnore]
-        public virtual Device Device { get; set; }
         public string Type { get;  set; }
         public string RawValue { get; set; }
-        [JsonIgnore]
         public int DeviceID { get; set; }
     }
 }

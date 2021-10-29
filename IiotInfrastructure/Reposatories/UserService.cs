@@ -1,6 +1,9 @@
-using IiotApi.Entities;
-using IiotApi.Helpers;
-using IiotApi.Models;
+
+using IiotApplication.Repositories;
+using IiotContract.Requests;
+using IiotContract.Results;
+using IiotDomain;
+using IiotInfrastructure.Helpers;
 using Microsoft.Extensions.Options;
 using Microsoft.IdentityModel.Tokens;
 using System;
@@ -10,7 +13,7 @@ using System.Linq;
 using System.Security.Claims;
 using System.Text;
 
-namespace IiotApi.Services
+namespace IiotInfrastructure.Reposatories
 {
     public class UserService : IUserService
     {
