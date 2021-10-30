@@ -9,7 +9,7 @@ namespace IiotDomain
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseMySQL("server=db;port=3306;userid=dbuser;password=dbuserpassword;database=IIOT;");
+            optionsBuilder.UseMySQL("server=127.0.0.1;port=3307;userid=dbuser;password=dbuserpassword;database=IIOT;");
             
         }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
